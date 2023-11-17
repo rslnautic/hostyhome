@@ -31,7 +31,7 @@ export default function RootLayout({
   params: any;
 }) {
   return (
-    <html lang="en" className={poppins.className}>
+    <html lang="en" className={`${poppins.className} antialiased`}>
       <body className="bg-white text-base dark:bg-neutral-900 text-neutral-900 dark:text-neutral-200">
         <ClientCommons />
         <SiteHeader />
