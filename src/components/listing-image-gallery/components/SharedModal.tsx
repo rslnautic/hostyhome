@@ -89,7 +89,7 @@ export default function SharedModal({
                   width={navigation ? 1280 : 1920}
                   height={navigation ? 853 : 1280}
                   priority
-                  alt="Chisfis listing gallery"
+                  alt="HostyHome listing gallery"
                   onLoadingComplete={() => setLoaded(true)}
                   sizes="(max-width: 1025px) 100vw, 1280px"
                 />

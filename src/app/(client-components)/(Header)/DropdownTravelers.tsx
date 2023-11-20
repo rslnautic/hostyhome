@@ -22,12 +22,12 @@ const solutions: SolutionItem[] = [
     active: true,
     icon: IconOne,
   },
-  {
-    name: "Real Estate",
-    description: "Real Estate description",
-    href: "/listing-real-estate",
-    icon: IconTwo,
-  },
+  // {
+  //   name: "Real Estate",
+  //   description: "Real Estate description",
+  //   href: "/listing-real-estate",
+  //   icon: IconTwo,
+  // },
   {
     name: "Cars",
     description: "Car rental description",
@@ -94,7 +94,7 @@ export default function DropdownTravelers() {
                   ))}
                 </div>
                 {/* FOOTER */}
-                <div className="p-4 bg-neutral-50 dark:bg-neutral-700">
+                {/* <div className="p-4 bg-neutral-50 dark:bg-neutral-700">
                   <Link
                     href="/"
                     className="flow-root px-2 py-2 space-y-0.5 transition duration-150 ease-in-out rounded-md focus:outline-none focus-visible:ring focus-visible:ring-orange-500 focus-visible:ring-opacity-50"
@@ -108,7 +108,7 @@ export default function DropdownTravelers() {
                       Start integrating products and tools
                     </span>
                   </Link>
-                </div>
+                </div> */}
               </div>
             </Popover.Panel>
           </Transition>

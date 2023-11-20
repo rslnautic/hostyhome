@@ -128,14 +128,14 @@ const NavMobile: React.FC<NavMobileProps> = ({
         {data.map(_renderItem)}
       </ul>
       <div className="flex items-center justify-between py-6 px-5">
-        <a
+        {/* <a
           className="inline-block"
           href="https://themeforest.net/item/chisfis-online-booking-nextjs-template/43399526"
           target="_blank"
           rel="noopener noreferrer"
         >
           <ButtonPrimary>Get Template</ButtonPrimary>
-        </a>
+        </a> */}
 
         <LangDropdown
           className="flex"

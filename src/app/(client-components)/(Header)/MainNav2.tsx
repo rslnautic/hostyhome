@@ -32,7 +32,8 @@ const MainNav2: FC<MainNav2Props> = ({ className = "" }) => {
 
         <div className="hidden md:flex flex-shrink-0 justify-end flex-1 lg:flex-none text-neutral-700 dark:text-neutral-100">
           <div className="hidden lg:flex space-x-1">
-            <TemplatesDropdown />
+            {/* TODO: decidir que hacer con el */}
+            {/* <TemplatesDropdown /> */}
             <LangDropdown />
             <Link
               href={"/add-listing" as Route<string>}

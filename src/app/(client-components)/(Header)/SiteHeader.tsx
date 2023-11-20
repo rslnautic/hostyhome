@@ -158,7 +158,7 @@ const SiteHeader = () => {
                         {renderRadioHomePages()}
                       </div>
                       <div className="bg-gray-50 dark:bg-white/5 p-5">
-                        <a
+                        {/* <a
                           className="flex items-center justify-center w-full px-4 py-2 !rounded-xl text-sm font-medium bg-primary-6000 text-white hover:bg-primary-700"
                           href={
                             "https://themeforest.net/item/chisfis-online-booking-nextjs-template/43399526"
@@ -168,7 +168,7 @@ const SiteHeader = () => {
                         >
                           <ShoppingCartIcon className="w-4 h-4" />
                           <span className="ml-2">Buy this template</span>
-                        </a>
+                        </a> */}
                       </div>
                     </div>
                   </Popover.Panel>
