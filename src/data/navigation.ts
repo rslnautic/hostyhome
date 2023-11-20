@@ -164,21 +164,21 @@ const templatesChildrenMenus: NavItemType[] = [
 ];
 
 export const NAVIGATION_DEMO: NavItemType[] = [
-  {
-    id: ncNanoId(),
-    href: "/",
-    name: "Home",
-    type: "dropdown",
-    children: demoChildMenus,
-    isNew: true,
-  },
-  {
-    id: ncNanoId(),
-    href: "/",
-    name: "Five columns",
-    type: "megaMenu",
-    megaMenu: megaMenuDemo,
-  },
+  // {
+  //   id: ncNanoId(),
+  //   href: "/",
+  //   name: "Home",
+  //   type: "dropdown",
+  //   children: demoChildMenus,
+  //   isNew: true,
+  // },
+  // {
+  //   id: ncNanoId(),
+  //   href: "/",
+  //   name: "Five columns",
+  //   type: "megaMenu",
+  //   megaMenu: megaMenuDemo,
+  // },
   {
     id: ncNanoId(),
     href: "/listing-stay",
@@ -240,21 +240,21 @@ export const NAVIGATION_DEMO: NavItemType[] = [
       },
     ],
   },
-  {
-    id: ncNanoId(),
-    href: "/author",
-    name: "Templates",
-    type: "dropdown",
-    children: templatesChildrenMenus,
-  },
+  // {
+  //   id: ncNanoId(),
+  //   href: "/author",
+  //   name: "Templates",
+  //   type: "dropdown",
+  //   children: templatesChildrenMenus,
+  // },
 
-  {
-    id: ncNanoId(),
-    href: "/blog",
-    name: "Other pages",
-    type: "dropdown",
-    children: otherPageChildMenus,
-  },
+  // {
+  //   id: ncNanoId(),
+  //   href: "/blog",
+  //   name: "Other pages",
+  //   type: "dropdown",
+  //   children: otherPageChildMenus,
+  // },
 ];
 
 export const NAVIGATION_DEMO_2: NavItemType[] = [
@@ -307,6 +307,24 @@ export const NAVIGATION_DEMO_2: NavItemType[] = [
       { id: ncNanoId(), href: "/listing-car", name: "Cars listings" },
       { id: ncNanoId(), href: "/listing-car-map", name: "Cars listings (map)" },
       { id: ncNanoId(), href: "/listing-car-detail", name: "Car detail" },
+
+      // //
+      // {
+      //   id: ncNanoId(),
+      //   href: "/listing-real-estate",
+      //   name: "Real estate listings",
+      // },
+      // {
+      //   id: ncNanoId(),
+      //   href: "/listing-real-estate-map",
+      //   name: "Real estate (map)",
+      // },
+      // //
+      // {
+      //   id: ncNanoId(),
+      //   href: "/listing-flights",
+      //   name: "Flights listings",
+      // },
     ],
   },
 
